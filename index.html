@@ -1,30 +1,49 @@
-<!doctype html>
 <html>
-<title>Zadanie 1</title>
-<body>
-<ol type="I">
-<li>Wprowadzenie
-<ol type="1">
-<li>Składnia języka HTML
-<ol type="a">
-<li>Znaczniki i elementy</li>
-<li>Struktura dokumentu HTML</li>
-<li>Pierwsza strona WWW
-</ol>
-</li>
-</ol>
-<ol type="1">
-<li>Kaskadowe arkusze stylów</li>
-<ol type="a">
-<li>Struktura i wygląd dokumentu</li>
-<li>Dołączanie stylów do dokumentów</li>
-<ul type="circle">
-<li>Style zewnętrzne</li>
-<li>Style wewnętrzne</li>
-</ul>
-<li>Domyślny język stylów</li>
-</ol>
-<ol type="I"
-</ol>
-</body>
+
+    <head>
+    <meta charset="utf-8">
+    <title>Tabela</title>
+    <style>
+    table
+    {
+    width: 600px;
+    height: 200px;
+    }
+    </style>
+    </head>
+
+        <body>
+        <table border="2px" bordercolor="grey" cellspacing="0px" cellpadding="0px">
+
+        <tr>
+        <th colspan="5" bgcolor="orange"><font color= "white"></th></font>
+        </tr>
+        <tr bgcolor="#FFCC33" align="center">
+        <td>rok szkolny</td>
+        <td>dzień</td>
+        <td>godzina</td>
+        <td>sala</td>
+        </tr>
+
+        <tr>
+        <td rowspan="3" width="20%">2017/2018</td>
+        <td>wrzesień-styczeń</td>
+        <td align="center">wtorek</td>
+        <td align="center">8.00</td>
+        <td rowspan="3" align="center" width="20%">116</td>
+        </tr>
+
+        <tr>
+        <td>luty-kwiecień</td>
+        <td align="center">czwartek</td>
+        <td align="center">14.00</td>
+        </tr>
+
+        <tr>
+        <td>maj-czerwiec</td>
+        <td align="center">wtorek</td>
+        <td align="center">16.00</td>
+        </tr>      
+        </body>
+        
 </html>
